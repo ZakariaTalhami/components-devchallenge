@@ -2,12 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import theme from './style/theme';
 import { ThemeProvider } from './style/ThemeContext';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeProvider value={theme}>
+    <ThemeProvider>
       <App />
     </ThemeProvider>
   </React.StrictMode>,
