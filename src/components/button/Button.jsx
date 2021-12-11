@@ -2,15 +2,15 @@
 import PropTypes from 'prop-types';
 import useComponentStyle from '../../style/useComponentStyle';
 
-const Button = ({ color, variant, size, shadowed, ...props }) => {
+const Button = ({ color, variant, size, shadowed, disabled, ...props }) => {
   const style = useComponentStyle('Button', {
     color,
     variant,
     size,
     shadowed,
   });
-  console.log(style);
-  return <button css={style} {...props} />;
+
+  return <button css={style} {...props} disabled={disabled}/>;
 };
 
 Button.propTypes = {
@@ -18,6 +18,7 @@ Button.propTypes = {
   variant: PropTypes.oneOf(['solid', 'outline', 'text']),
   size: PropTypes.oneOf(['sm', 'md', 'lg']),
   shadowed: PropTypes.bool,
+  disabled: PropTypes.bool,
 };
 
 export default Button;
