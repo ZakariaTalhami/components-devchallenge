@@ -5,6 +5,8 @@ const theme = {
         fontWeight: 500,
         borderRadius: '6px',
         color: '#3F3F3F',
+        display: 'flex',
+        alignItems: 'center',
         cursor: 'pointer',
         '&[disabled]': {
           opacity: 0.4,

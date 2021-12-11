@@ -62,3 +62,17 @@ LargeButton.args = {
   color: 'primary',
   size: 'lg',
 };
+
+export const LeftIconButton = template.bind({});
+LeftIconButton.args = {
+  leftIcon: "home",
+  label: 'Home',
+  color: 'primary',
+};
+
+export const RightIconButton = template.bind({});
+RightIconButton.args = {
+  rightIcon: "login",
+  label: 'Login',
+  color: 'primary',
+};
