@@ -3,7 +3,17 @@ import Button from '../components/button/Button';
 export default {
   title: 'Button',
   component: Button,
-  argTypes: { onClick: { action: 'onClick' } },
+  argTypes: {
+    leftIcon: {
+      description: "Any Goolge Icon name"
+    },
+    rightIcon: {
+      description: "Any Goolge Icon name"
+    },
+    onClick: {
+      action: 'onClick'
+    } 
+  },
 };
 
 const template = ({ label, ...args }) => <Button {...args} children={label} />;
