@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://61b51aa5aebc5f003a189fbc-ojstbsqvnh.chromatic.com/">
       Storybook
     </a>
     <span> | </span>
@@ -41,7 +41,7 @@ This is the solution to the component challenges in devchallenge.
 - Button Component
 
 ### Where to view the components
-The components can be viewed through storybook.
+The components can be viewed through [storybook](https://61b51aa5aebc5f003a189fbc-ojstbsqvnh.chromatic.com/).
 
 ### What I have learned:
 - How to integrate Storybook into react component library.
