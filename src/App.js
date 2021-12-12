@@ -1,25 +1,8 @@
-import Button from './components/button/Button';
+import ButtonDisplay from './pages/ButtonDisplay';
 
 function App() {
   return (
-    <div>
-      <Button size="sm" color="danger" shadowed>
-        Default
-      </Button>
-      <br />
-      <br />
-      <Button variant="outline" size="md">
-        Default
-      </Button>
-      <br />
-      <br />
-      <Button variant="text" color="danger" size="lg">
-        Default
-      </Button>
-      <br />
-      <br />
-      <Button>Default</Button>
-    </div>
+    <ButtonDisplay />
   );
 }
 
